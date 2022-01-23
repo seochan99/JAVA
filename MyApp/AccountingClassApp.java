@@ -104,7 +104,8 @@ public class AccountingClassApp {
 //		Accounting2.print(dividend1, dividend2, dividend3);
 		
 		Accounting a1 = new Accounting();
-		
+		a1.valueOfSupply = 10000.0;
+		a1.vatRate = 0.1;		
 		
 		
 	}
