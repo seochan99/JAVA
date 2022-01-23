@@ -11,6 +11,7 @@ public class AccountingMethodApp {
 		vatRate = 0.1;
 		expenseRate = 0.3;
 		expense = getExpense();
+		
 		double vat = getVAT();
 		double total = getTotal();
 		double income = getIncome();
@@ -18,9 +19,7 @@ public class AccountingMethodApp {
 		double dividend2 = income*0.3;
 		double dividend3 = income*0.2;
 		
-		print( dividend1, dividend2, dividend3);
-		
-		
+		print(dividend1, dividend2, dividend3);
 
 	}
 
